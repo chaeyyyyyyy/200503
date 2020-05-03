@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" contents="width=device-width,intial-scale=1.0">
+	<tltle></tltle>
+
+	<style>
+		header .contain1 {width: 1200px; height: 79.5px; background-color: #a7b6be; margin: 0 auto; position: relative;}	
+		header .contain2 {width: 1200px; height: 50px; position: relative; margin: 0 auto;}
+		header .contain2 ul {width: 60px; height: 50px; position: relative; line-height: 50px; float: left; margin: 0 auto; left: -10px; }
+		header .contain2 ul li {list-style: none; text-align: center; position: relative; font-weight: bold; font-family: 'noto sans KR',sans-serif;}
+		header .contain3 {width: 1200px; height: 30px; position: relative; margin: 0 auto;}
+		header .contain3 ul {width: 1200px; height: 30px; position: relative; line-height: 30px; float: left; margin: 0 auto; left: -10px; }
+		header .contain3 ul li {list-style: none; font-weight: 400; font-size: 13pt; font-family: 'noto sans KR',sans-serif;}
+		body .contain4 {width: 1200px; height: 683px; position: relative; margin: 0 auto; margin-top: 20px;}
+		body .contain4 img {width: 560px; border-radius: 20px; margin-top: 20px; margin-left:80px; position: absolute;}
+		.contain4 .photo1 img {width: 70px; height: 70px; border-radius: 10px; background: pink; position: absolute; margin-left: 0; margin-top: 20px; }
+		.contain4 .photo1 img .pic2 {width: 70px; border-radius: 10px; position: absolute; margin-top: 20px; overflow: hidden; margin: 0 auto; }
+		.contain4 .photo2 img {width: 70px; height: 70px; border-radius: 10px; position: absolute; margin-left: 0; margin-top: 100px; }
+		.contain4 .photo2 img .pic3 {width: 70px; border-radius: 10px; position: absolute; margin-top: 100px; overflow: hidden; margin: 0 auto; }
+		.contain4 .photo3 img {width: 70px; height: 70px; border-radius: 10px; background: pink; position: absolute; margin-left: 0; margin-top: 180px; }
+		.contain4 .photo3 img .pic4 {width: 70px; border-radius: 10px; position: absolute; margin-top: 180px; overflow: hidden; margin: 0 auto; }
+		.contain4 .photo4 img {width: 70px; height: 70px; border-radius: 10px; background: pink; position: absolute; margin-left: 0; margin-top: 260px; }
+		.contain4 .photo4 img .pic5 {width: 70px; border-radius: 10px; position: absolute; margin-top: 260px; overflow: hidden; margin: 0 auto; }
+		.contain4 .photo5 img {width: 70px; height: 70px; border-radius: 10px; background: pink; position: absolute; margin-left: 0; margin-top: 340px; }
+		.contain4 .photo5 img .pic6 {width: 70px; border-radius: 10px; position: absolute; margin-top: 340px; overflow: hidden; margin: 0 auto; }
+		.contain4 .textcontain1 {width: 426px; height: 540px; position: absolute; margin: 0 auto; margin-top: 20px; margin-left: 680px; }
+		.contain4 .textbox1 {width: 426px; height: 70px; border-bottom: 1px solid #b3b3b3; position: absolute; margin: 0 auto; font-size: 20pt; font-weight: bold; font-family: 'noto sans',sans-serif; line-height: 70px;}
+		.contain4 .textbox2 {width: 160px; height: 182px; border-bottom: 1px solid #b3b3b3; position: absolute; margin: 0 auto; font-size: 20pt; font-weight: 400; font-family: 'noto sans',sans-serif; margin-top: 70px; font-size: 13pt; line-height: 60px;}
+		.contain4 .textbox3 {width: 267px; height: 182px; border-bottom: 1px solid #b3b3b3; position: absolute; margin: 0 auto; margin-left: 160px; font-size: 20pt; font-weight: 400; font-family: 'noto sans',sans-serif;margin-top: 70px; font-size: 13pt; line-height: 60px;}
+		.contain4 .textbox4 {width: 426px; height: 97px; border-bottom: 1px solid #b3b3b3; position: absolute; margin: 0 auto; margin-top: 260px; font-size: 13pt; font-weight: 400; font-family: 'noto sans',sans-serif; line-height: 20px; }
+		.textbox4 .option {width: 422px; height: 40px; font-size: 11px; background: #e5e5e5; border-radius: 14px; margin-left: 2px; margin-top: 20px; text-align: left; line-height: 40px;}
+		.textbox4 .option a {margin-left: 20px;}
+		.textcontain2 {width: 426px; height: 165px; position: absolute; margin: 0 auto; font-size: 13pt; font-weight: 300; text-align: center; line-height: 77px; margin-top: 380px; font-family: 'noto sans',sans-serif;}
+		.textcontain2 .textbox1 {width: 425px; height: 77px; border:1px solid black;  border-radius: 15px; font-size: 13pt; font-weight: 300; text-align: center; line-height: 77px; margin: 0 auto; }
+		.textcontain2 .textbox2 {width: 205px; height: 65px; border:1px solid black;  border-radius: 15px; font-size: 13pt; font-weight: 300; text-align: center; line-height: 65px; margin-top: 99px; }
+		.textcontain2 .textbox3 {width: 205px; height: 65px; border:1px solid black;  border-radius: 15px; font-size: 13pt; font-weight: 300; text-align: center; line-height: 65px; margin-top: 99px; margin-left: 220px; }
+		.contain5 {width: 1200px; height: 53px; background: #e5e5e5; margin: 0 auto; position: relative;}
+		.contain5 li {list-style: none; float: left; padding-left: 80px; font-size: 15pt; line-height: 53px; font-family: 'noto sans',sans-serif;}
+		.info {font-weight: bold;}
+		.review {font-weight: 400;}
+		.ask {font-weight: 400;}
+		.post {font-weight: 400;}
+		.contain5 hr{position: absolute; left: 29px; margin: 0 auto; margin-top:51px; border-radius: 3px;}
+		.contain6 {width: 1000px; height: 6965px; position: relative; margin: 0 auto; margin-top: 98px; }
+		
+		.contain6 .imgborder {width: 896px; height: 1202px; border: dashed 5px #763519;  position: absolute; top: 40px; left: 50px; z-index:2; }
+		.contain6 .main1 {width: 1000px; overflow: hidden; position: absolute; margin: 0 auto; align-content: center; z-index: 1;}
+		.contain6 .imgtext1 {top: 137px; font-size: 40pt; font-family: 'Bazzi'; position: absolute; z-index: 2; left: 365px; color: #763519;}
+		.contain6 .imgtext2 {top: 233px; font-size: 100pt; font-weight: bold; font-family: 'cookierun'; position: absolute; z-index: 2; color: #763519; left: 190px; text-shadow: 8px 8px 8px #dfa54d; }
+		.contain6 .sub1 {width: 522px; position: absolute; top: 440px; left: 240px; z-index: 2;}
+		.contain6 .imgtext3 {position: absolute; top: 457px; left: 410px; z-index: 2; font-family: 'Bazzi'; font-size: 25pt; color: #eecd81;}
+ 		.contain6 .textbox4 {width: 1000px; height: 349px; background:#763519; position: relative; top: 1290px; text-align: center; font-size: 48pt; color: #f2d48d; font-weight: 200; }
+ 		.contain6 .textbox4 .text1 {position: absolute; margin-top:110px; margin-left: 198px;}
+ 		.contain6 .textbox4 .text1 span {font-weight: bold;}
+ 		.contain6 .main2{width: 1000px; overflow: hidden; position: relative; margin: 0 auto; z-index: 1; top:350px; }
+ 		.contain6 .textbox5 {width: 1000px; height: 1257px; position: relative; margin: 0 auto; top: 330px;}
+ 		.contain6 .textbox5 .maintext1 {font-size: 180pt; color: #f0a762; font-family: 'Rockville Solid', sans-serif; margin-top: 50px; position: absolute; left: 50px;}
+ 		.contain6 .textbox5 .subtext {font-size: 40pt; color:#000000; font-family: 'noto sans', sans-serif; margin-top: 370px; position: absolute; left: 300px; text-align: left;}
+ 		.contain6 .textbox5 .subtext span {font-weight: bold;}
+ 		.contain6 .textbox5 .subtext2 {position: absolute; margin-top: 630px; left: 90px; font-family: 'Rockville Solid', sans-serif; font-size: 60pt; text-align: center; color: #ffffff; z-index: 1 }
+ 		.contain6 .textbox5 .subtext3 {position: absolute; margin-top: 630px; left: 410px; font-family: 'Rockville Solid', sans-serif; font-size: 60pt; text-align: center; color: #ffffff;z-index: 1}
+ 		.contain6 .textbox5 .subtext4 {position: absolute; margin-top: 630px; left: 730px; font-family: 'Rockville Solid', sans-serif; font-size: 60pt; text-align: center; color: #ffffff; z-index: 1}
+ 		.contain6 .textbox5 .sub2 {width: 340px; position: absolute; margin-top: 550px; left: 0px; opacity: 52%; }
+ 		.contain6 .textbox5 .sub3 {width: 340px; position: absolute; margin-top: 550px; left: 320px; opacity: 52%; }
+ 		.contain6 .textbox5 .sub4 {width: 340px; position: absolute; margin-top: 550px; left: 640px; opacity: 52%; }
+ 		.contain6 .textbox5 .subtext5 {width: 340px; position: absolute; margin-top: 850px; left: 0px; font-size: 20pt; color:#000000; font-family: 'noto sans', sans-serif; font-weight: 300; }
+ 		.contain6 .textbox5 .subtext6 {width: 340px; position: absolute; margin-top: 850px; left: 320px; font-size: 20pt; color:#000000; font-family: 'noto sans', sans-serif; font-weight: 300;}
+ 		.contain6 .textbox5 .subtext7 {width: 340px; position: absolute; margin-top: 850px; left: 640px; font-size: 20pt; color:#000000; font-family: 'noto sans', sans-serif; font-weight: 300;}
+ 		.contain6 .main3 {width: 1000px; position: relative; overflow: hidden; top: 240px; }
+ 		.contain6 .textbox6 {width: 879px; height: 2055px; background: #fbdd96; border: dashed 5px #f2a962; position: relative; top: 400px; border-radius: 36px; left: 52.5px;}
+ 		.contain6 .textbox6 .sub5 {width: 767px; position: absolute; top: 150px; left: 60px; }
+ 		.contain6 .textbox6 .subtext8 {position: absolute; top: 60px; left: 390px; font-size: 30pt; font-family: 'noto sans',sans-serif; color: #f2a962; text-align: center; font-weight: 500;}
+ 		.contain6 .textbox6 .sub6 {width: 400px; position: absolute; top: 300px; left: 200px; }
+ 		.contain6 .textbox6 .sub7 {width: 400px; position: absolute; top: 800px; left: 200px; }
+ 		.contain6 .textbox6 .sub8 {width: 400px; position: absolute; top: 1350px; left: 200px; }
+ 		.contain6 .textbox6 .subtext9 {position: absolute; top: 690px; left: 320px; font-size: 20pt; font-family: 'noto sans',sans-serif; color: #ca6f1b; text-align: center; font-weight: 200;}
+ 		.contain6 .textbox6 .subtext10 {position: absolute; top: 1180px; left: 320px; font-size: 20pt; font-family: 'noto sans',sans-serif; color: #ca6f1b; text-align: center; font-weight: 200;}
+ 		.contain6 .textbox6 .subtext11 {position: absolute; top: 1780px; left: 320px; font-size: 20pt; font-family: 'noto sans',sans-serif; color: #ca6f1b; text-align: center; font-weight: 200;}
+ 		div .viedo {width: 1000px; height: 603px; background: gray; position: relative; top: 6800px; }
+ 		div .main4 .mainimg1 {width: 887px; height: 742px; position: relative; top: 6900px; left: 30%; }
+ 		div .main4 .mainimg2 {width: 783px;  position: relative; top: 7100px; left: 0; }
+ 		.contain7 {width: 1000px; height: 2294.5px; background: pink; position: relative; top: 7300px;}
+ 		.contain7 .textbox7 {width: 1000px; height: 394px; background: #f8af62; position: absolute; text-align: center; }
+ 		.contain7 .textbox7 .text2 {font-family: 'noto sans',sans-serif; color: #fbdd96; font-size: 58pt; line-height: 88px; margin-top: 110px;font-weight: 200;}
+ 		.contain7 .textbox7 .text2 span {font-weight: bold;}
+ 		.contain7 .textbox8 {width: 1000px; height: 1596px; background: #fff5e6; position: relative; top: 394px;}
+ 		.contain7 .textbox8 .maintext2 {font-size: 180pt; color: #763519; font-family: 'Rockville Solid', sans-serif; margin-top: 50px; position: absolute; left: 50px;}
+ 		.contain7 .textbox8 .subtext {font-size: 40pt; color:#763519; font-family: 'noto sans', sans-serif; margin-top: 370px; position: absolute; left: 300px; text-align: left; font-weight: 300;}
+ 		.contain7 .textbox8 .subtext span {font-weight: bold;}
+ 		.contain7 .textbox8 .sub5 {width: 863px; position: absolute; margin-top: 600px; left: 80px;}
+ 		.contain7 .textbox8 .subtext12 {font-size: 20pt; font-family: 'noto sans',sans-serif; color: #763519; margin-left: 700px; margin-top: 740px; position: absolute; font-weight: 400;}
+ 		.contain7 .textbox8 .subtext13 {font-size: 20pt; font-family: 'noto sans',sans-serif; color: #763519; margin-left: 280px; margin-top: 790px; position: absolute; font-weight: 400;}
+ 		.contain7 .textbox8 .subtext14 {font-size: 20pt; font-family: 'noto sans',sans-serif; color: #763519; margin-left: 680px; margin-top: 1000px; position: absolute; font-weight: 400;}
+ 		.contain7 .textbox8 .subtext15 {font-size: 20pt; font-family: 'noto sans',sans-serif; color: #763519; margin-left: 300px; margin-top: 1380px; position: absolute; font-weight: 400;}
+ 		.contain7 .textbox8 .subtext16 {font-size: 20pt; font-family: 'noto sans',sans-serif; color: #763519; margin-left: 790px; margin-top: 1400px; position: absolute; font-weight: 400;}
+ 		.contain7 .textbox9 {width: 1000px; height: 349px; background: #fbdd96; position: absolute; text-align: center; margin-top: 350px;}
+ 		.contain7 .textbox9 .text3 {width: 1000px; font-family: 'noto sans',sans-serif; color: #f8af62; font-size: 58pt; line-height: 88px; top: 100px; font-weight: 200; position: absolute; left: 5px; }
+ 		.contain7 .textbox9 .text3 span {font-weight: bold;}
+ 		div .contain8 {width: 1000px; height: 1995px; position: relative; top: 7500px; margin:0 auto;}
+ 		.contain8 .mainimg3 {width: 819px; position: absolute;  left: 500px;}
+ 		.contain8 .mainimg4 {width: 1000px; position: absolute; top: 800px; }
+ 		.contain9 {width: 1200px; height: 363.5px; position: relative; top: 7500px; background: #a7b6be;}
+
+		pink
+		
+		 
+
+		
+
+
+		 
+	</style>
+</head>
+<body>
+	<header>
+		<div class="contain1"></div>
+		<div class="contain2">
+			<ul class="menu1">
+				<li class="store home">
+					<a>스토어홈</a>
+				</li>
+			</ul>	
+			<ul class="menu2">
+				<li class="category1">
+					<a>카테고리</a>
+				</li>
+			</ul>
+			<ul class="menu3">
+				<li class="category2">
+					<a>카테고리</a>
+				</li>
+			</ul>
+			<ul class="menu4">
+				<li class="category3">
+					<a>카테고리</a>
+				</li>
+			</ul>
+		</div>	
+		<div class="contain3">
+			<ul class="category1">
+				<li class="list">
+					<a>주방 > 조리도구 > 달고나세트</a>
+				</li>
+			</ul>
+		</div>
+	</header>
+	
+	<div class="contain4">
+		<img class="pic1" src="dalgona1.jpg">
+		<div class="photo1">
+			<img class="pic2" src="photo2.png">
+		</div>
+		<div class="photo2">
+			<img class="pic3" src="photo3.jpg">
+		</div>
+		<div class="photo3">
+			<img class="pic4" src="photo4.jpg">
+		</div>
+		<div class="photo4">
+			<img class="pic5" src="photo5.jpg">
+		</div>
+		<div class="photo5">
+			<img class="pic6" src="photo6.jpg">
+		</div>
+		<div class="textcontain1">
+			<div class="textbox1">[추억의 달고나 만들기] 달고나BOX</div>
+			<div class="textbox2">
+				판매가</br>  
+				상품코드</br>
+				배송비</br>
+			</div>
+			<div class="textbox3">
+				10,000원</br>  
+				P130399976CE</br>
+				2,500원</br>
+			</div>
+			<div class="textbox4">
+				<a>옵션</a>
+				<div class="option">
+					  <a>-[필수] 옵션을 선택해주세요-</a>
+				</div>
+			</div>
+			<div class="textcontain2">
+				<div class="textbox1">BUY  IT NOW</div>
+				<div class="textbox2">ADD TO CART</div>
+				<div class="textbox3">WISH LIST</div>
+			</div>	
+		</div>
+	</div>
+	<div class="contain5">
+		<hr width="158px" size="3" color="#000000" >
+		<li><a class="info">상품정보</a></li>
+		<li><a class="review">리뷰</a></li>
+		<li><a class="ask">문의</a></li>
+		<li><a class="post">배송/환불</a></li>
+	</div>
+	<div class="contain6">
+		<div class="imgborder"></div>
+		<a class="imgtext1">집콕족들을 위한</a>
+		<a class="imgtext2">달고나BOX</a>
+		<img class="sub1" src="ribbon.png">
+		<a class="imgtext3">심심하구나SET</a>
+		<img class="main1" src="m1.png">
+		<div class="textbox4">
+			<div class="text1">심심한 집콕족들을 위한<br>
+				<span>추억의 달고나BOX</span>
+			</div>
+		<img class="main2" src="m2.png">
+		<div class="textbox5">
+			<a class="maintext1">Who?</a>
+			<a class="subtext"><span>달고나BOX</span>
+			<br>이런분들에게 추천드립니다
+			</a>
+			<a class="subtext2">Memory</a>
+			<a class="subtext3">Bored</a>
+			<a class="subtext4">Covid19</a>
+			<img class="sub2" src="dalgona.png">
+			<img class="sub3" src="dalgona.png">
+			<img class="sub4" src="dalgona.png">
+			<a class="subtext5">과거 추억속 뽑기<br> 실력을 뽑내고<br> 싶으신 분</a>
+			<a class="subtext6">혼자 노는것도<br>이제 지치신 분 </a>
+			<a class="subtext7">코로나19로인해<br>집콕족이 되신 분 </a>
+		</div>
+		<img class="main3" src="m3.jpg">
+		<div class="textbox6">
+			<a class="subtext8">추억의</a>
+			<img class="sub5" src="ribbon2.png">
+			<img class="sub6" src="sub1.png">
+			<img class="sub7" src="sub2.png">
+			<img class="sub8" src="sub3.png">
+			<a class="subtext9"><span>Step.01</span><br>설탕을 동국자에 담아서<br>녹여주세요</a>
+			<a class="subtext10"><span>Step.02</span><br>설탕이 다 녹으면<br>소량의 식소다를 넣고<br>빠르게 저어줍니다</a>
+			<a class="subtext11"><span>Step.03</span><br>설탕을 뿌려둔 밑판 위에<br>달고나를 붓고 누름판으로<br>눌러줍니다</a>
+		</div>
+	</div>
+	<div class="viedo"></div>
+	<div class="main4">
+		<img class="mainimg1" src="m4.jpg">
+		<img class="mainimg2" src="photo3.jpg">
+	</div>
+	<div class="contain7">
+		<div class="textbox7">
+			<div class="text2">
+				추억의 달고나를 만들기위한<br>
+				<span>심심하구나SET</span>
+			</div>
+		</div>
+		<div class="textbox8">
+			<a class="maintext2">Goods</a>
+			<a class="subtext"><span>달고나BOX</span>
+			<br>심심하구나SET 구성품
+			</a>
+			<img class="sub5" src="sub4.png" >
+			<a class="subtext12">동국자</a>
+			<a class="subtext13">누름판</a>
+			<a class="subtext14">끌개</a>
+			<a class="subtext15">밑판</a>
+			<a class="subtext16">모양틀</a>
+		</div>
+		<div class="textbox9">
+			<a class="text3">다양하게 맛있게<br>
+			<span>달고나 커피위 달고나 토핑</span>
+			</a>
+		</div>
+	</div>
+	<div class="contain8">
+		<img class="mainimg3" src="m5.jpg">
+		<img class="mainimg4" src="photo6.jpg">
+	</div>
+	<div class="contain9"></div>
+	
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
